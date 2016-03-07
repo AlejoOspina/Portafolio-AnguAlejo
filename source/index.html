@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Plantilla MANGELTECH</title>
-
+    
     <!-- build:css css/style.min.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/app/footer/footer.css">
     <link rel="stylesheet" href="/app/header/header.css">
     <link rel="stylesheet" href="/app/inicio/inicio.css">
+    <link rel="stylesheet" href="/app/usuarios/usuarios.css">
     <!-- endinject -->
     <!-- endbuild -->
 </head>
@@ -27,6 +28,7 @@
     <!-- Inicio contenido Página -->
     <div ui-view="inicio"></div>
     <div ui-view="administrador"></div>
+    <div ui-view="usuarios"></div>
     <!-- Fin contenido Página -->
 
      <!-- El piepagina es el footer, solo que no se puede colocar footer, porque html,
@@ -62,6 +64,11 @@
     <script src="/app/inicio/app.directivas.js"></script>
     <script src="/app/inicio/app.module.js"></script>
     <script src="/app/inicio/app.route.js"></script>
+    <script src="/app/usuarios/app.controller.js"></script>
+    <script src="/app/usuarios/app.directivas.js"></script>
+    <script src="/app/usuarios/app.router.js"></script>
+    <script src="/app/usuarios/app.services.js"></script>
+    <script src="/app/usuarios/app.usuarios.module.js"></script>
     <!-- endinject -->
     <!-- endbuild -->
 </body>

@@ -1,0 +1,36 @@
+.Footer {
+  display: flex;
+  background: #00f;
+  box-shadow: 8px 3px 31px 3px #808080;
+  padding: 1.3em;
+}
+.Footer-parrafo {
+  display: flex;
+}
+.Footer-titulo {
+  color: #fff;
+  padding: 10px;
+}
+.Footer-p {
+  width: 50%;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px;
+  border-right: 1px solid #fff;
+}
+.Footer-img {
+  width: 27%;
+  height: 29%;
+  border-radius: 50%;
+  -webkit-transition: border-bottom 0.2s;
+}
+.Footer-img:hover {
+  border-bottom: 5px solid #fff;
+}
+.Footer-imgs {
+  width: 21%;
+}
+.Footer-cajaimg {
+  width: 23%;
+  text-align: -webkit-right;
+}

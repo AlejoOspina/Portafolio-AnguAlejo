@@ -1,0 +1,30 @@
+<div class="Header-user"></div>
+<a href="#/" class="Boton-inico">Ir a inicio</a>
+<h3> Hola  desde list usuario</h3>
+<div ng-repeat="usuario in vm.usuarios">
+
+	<table summary="Tabla con los datos de los resultados de la búsqueda" width="50%" class="tabla-users">
+  <tr>
+    <th abbr="Imagen del producto" scope="col" >Nombres</th>
+    <th abbr="Datos del producto" scope="col">Apellidos</th>
+    <th abbr="Datos del producto" scope="col">Telefonos</th>
+    <th abbr="Datos del producto" scope="col">Email</th>
+  </tr>
+
+  <tr>
+    <td >
+	  {{usuario.nombre}}
+    </td>
+    <td class="Columna-apellido">
+     {{usuario.apellido}}
+    </td>
+    <td class="Columna-telefono">
+     {{usuario.telefono}}
+    </td>
+    <td class="Columna-email">
+     {{usuario.email}}
+    </td>
+  </tr>
+</table>
+</div>
+
