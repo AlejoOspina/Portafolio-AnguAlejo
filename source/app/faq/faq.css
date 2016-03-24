@@ -1,0 +1,26 @@
+.Titulo-Faq {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  left: 45%;
+  bottom: 0;
+  color: #000;
+}
+.Body-Preguntas {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+.Preguntas {
+  position: relative;
+  text-align: center;
+  color: #808080;
+  border: 2px #f00 solid;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+}
+.Preguntas:hover {
+  color: #00f;
+  background: #808080;
+}

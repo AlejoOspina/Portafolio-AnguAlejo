@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Plantilla MANGELTECH</title>
+    
+    <!-- build:css css/style.min.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/Aliados/aliados.css">
+    <link rel="stylesheet" href="/app/admin/admin.css">
+    <link rel="stylesheet" href="/app/beneficios/beneficios.css">
+    <link rel="stylesheet" href="/app/empresario/empresario.css">
+    <link rel="stylesheet" href="/app/faq/faq.css">
+    <link rel="stylesheet" href="/app/footer/footer.css">
+    <link rel="stylesheet" href="/app/formulario/formulario.css">
+    <link rel="stylesheet" href="/app/header/header.css">
+    <link rel="stylesheet" href="/app/inicio/inicio.css">
+    <link rel="stylesheet" href="/app/login/login.css">
+    <link rel="stylesheet" href="/app/planes/planes.css">
+    <link rel="stylesheet" href="/app/usuarios/usuarios.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!-- El encabezado es el header, solo que no se puede colocar header, porque html,
+    ya tiene una etiqueta con ese nombre -->
+    <div ui-view="encabezado"></div>
+
+    <!-- Inicio contenido Página -->
+    <div ui-view="inicio"></div>
+    <div ui-view="administrador"></div>
+    <div ui-view="usuarios"></div>
+    <div ui-view="faq"></div>
+    <div ui-view="aliados"></div>
+    <div ui-view="planes"></div>
+    <div ui-view="beneficios"></div>
+    <div ui-view="formulario"></div>
+    <div ui-view="login"></div>
+    <!-- Fin contenido Página -->
+
+     <!-- El piepagina es el footer, solo que no se puede colocar footer, porque html,
+    ya tiene una etiqueta con ese nombre -->
+   <div ui-view="piepagina" class="piedepagina"></div>
+
+
+    <!-- build:js js/vendor.min.js -->
+    <!-- bower:js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="lib/jquery/dist/header.scroll.js"></script>
+    <script src="lib/jquery/dist/imagen1.scroll.js"></script>
+     <script src="lib/jquery/dist/ventana.login.js"></script>
+    <script src="lib/jquery/dist/imagen2.scroll.js"></script>
+    <script src="lib/jquery/dist/ventanamodal.scroll.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/angular-filter/dist/angular-filter.min.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="lib/satellizer/satellizer.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js js/app.min.js -->
+    <!-- inject:js -->
+    <script src="/app/app.module.js"></script>
+    <script src="/app/templates.js"></script>
+    <script src="/app/Aliados/app.directivas.js"></script>
+    <script src="/app/Aliados/app.module.js"></script>
+    <script src="/app/Aliados/app.router.js"></script>
+    <script src="/app/admin/app.controller.js"></script>
+    <script src="/app/admin/app.directivas.js"></script>
+    <script src="/app/admin/app.module.js"></script>
+    <script src="/app/admin/app.route.js"></script>
+    <script src="/app/admin/app.services.js"></script>
+    <script src="/app/beneficios/app.directivas.js"></script>
+    <script src="/app/beneficios/app.module.js"></script>
+    <script src="/app/beneficios/app.router.js"></script>
+    <script src="/app/config/app.constantes.js"></script>
+    <script src="/app/empresario/app.controller.js"></script>
+    <script src="/app/empresario/app.directivas.js"></script>
+    <script src="/app/empresario/app.module.js"></script>
+    <script src="/app/empresario/app.router.js"></script>
+    <script src="/app/empresario/app.services.js"></script>
+    <script src="/app/faq/app.directivas.js"></script>
+    <script src="/app/faq/app.module.js"></script>
+    <script src="/app/faq/app.router.js"></script>
+    <script src="/app/footer/app.directivas.js"></script>
+    <script src="/app/footer/app.module.js"></script>
+    <script src="/app/formulario/app.controller.js"></script>
+    <script src="/app/formulario/app.directivas.js"></script>
+    <script src="/app/formulario/app.module.js"></script>
+    <script src="/app/formulario/app.route.js"></script>
+    <script src="/app/header/app.directivas.js"></script>
+    <script src="/app/header/app.module.js"></script>
+    <script src="/app/inicio/app.controller.js"></script>
+    <script src="/app/inicio/app.directivas.js"></script>
+    <script src="/app/inicio/app.module.js"></script>
+    <script src="/app/inicio/app.route.js"></script>
+    <script src="/app/login/app.controller.js"></script>
+    <script src="/app/login/app.directivas.js"></script>
+    <script src="/app/login/app.module.js"></script>
+    <script src="/app/login/app.route.js"></script>
+    <script src="/app/planes/app.directivas.js"></script>
+    <script src="/app/planes/app.module.js"></script>
+    <script src="/app/planes/app.router.js"></script>
+    <script src="/app/usuarios/app.controller.js"></script>
+    <script src="/app/usuarios/app.directivas.js"></script>
+    <script src="/app/usuarios/app.router.js"></script>
+    <script src="/app/usuarios/app.services.js"></script>
+    <script src="/app/usuarios/app.usuarios.module.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+
+</body>
+
+</html>
