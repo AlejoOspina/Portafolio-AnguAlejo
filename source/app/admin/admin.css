@@ -1,20 +1,55 @@
-.Header-admin {
-  margin-top: 10em;
+.titulo-admin {
+  position: relative;
+  color: #f00;
+  top: 5em;
+  left: 19em;
+  text-align: center;
+  padding: 20px;
+  height: 3em;
+  width: 25%;
+  border: double #000;
 }
-.Usuarios-repeat {
-  margin-bottom: 1em;
+.campos {
+  position: relative;
+  color: #f00;
+  top: 10em;
+  left: 40em;
+  text-align: center;
+  padding-top: 0.5%;
+  height: 3em;
+  width: 10%;
+  border: #000 double;
+  list-style: none;
 }
-.Boton-inico {
-  background: #ffa500;
-  padding: 1em;
-  border-radius: 5px;
-  border: 3px solid #000;
-  -webkit-transition: background 0.2s, color 0.2s;
-  margin-bottom: 5px;
+.titulo-admin:hover {
+  background: #0a2a29;
 }
-.Boton-inico:hover {
-  background: #00f;
-  color: #fff;
-  text-decoration: none;
+.campos:hover {
+  background: #2e2e2e;
+}
+.atras {
   font-weight: bold;
+  text-decoration: none;
+  color: #00f;
+  font-size: 1.5em;
+  background: #ffa500;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 5px solid #000;
+  position: absolute;
+  top: 76%;
+  left: 30%;
+}
+.usuarios {
+  font-weight: bold;
+  text-decoration: none;
+  color: #00f;
+  font-size: 1.5em;
+  background: #ffa500;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 5px solid #000;
+  position: absolute;
+  top: 76%;
+  left: 52%;
 }

@@ -4,7 +4,7 @@
     angular.module('app.inicio', [
         'app.inicio.router',
         'app.inicio.directivas',
-        'app.inicio.controller'
+        'app.inicio.controller',
     ]);
 
 })();

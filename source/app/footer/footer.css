@@ -1,36 +1,38 @@
+@font-face {
+  font-family: nevis;
+  src: url("../../fuentes/nevis.ttf");
+}
+body {
+  font-family: nevis;
+  font-size: 16px;
+}
+.cajafooter {
+  margin-top: 15em;
+  z-index: -2;
+  width: 100%;
+  background: #fff;
+}
 .Footer {
-  display: flex;
-  background: #00f;
-  box-shadow: 8px 3px 31px 3px #808080;
-  padding: 1.3em;
-}
-.Footer-parrafo {
-  display: flex;
-}
-.Footer-titulo {
+  z-index: -1;
+  bottom: 0;
+  background: #000;
+  position: fixed;
+  width: 100%;
+  padding: 2.3em;
+  text-align: center;
   color: #fff;
-  padding: 10px;
-}
-.Footer-p {
-  width: 50%;
-  color: #fff;
-  font-size: 17px;
-  padding: 10px;
-  border-right: 1px solid #fff;
-}
-.Footer-img {
-  width: 27%;
-  height: 29%;
-  border-radius: 50%;
-  -webkit-transition: border-bottom 0.2s;
-}
-.Footer-img:hover {
-  border-bottom: 5px solid #fff;
-}
-.Footer-imgs {
-  width: 21%;
 }
 .Footer-cajaimg {
-  width: 23%;
-  text-align: -webkit-right;
+  display: initial;
+}
+.Footer-copyright {
+  margin-right: 20px;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  font-size: 90%;
+  padding: 10px;
+}
+.Footer-img {
+  width: 5%;
+  display: inline-block;
 }

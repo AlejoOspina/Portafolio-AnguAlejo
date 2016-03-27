@@ -9,7 +9,7 @@
         return {
             scope: {},
             templateUrl: 'app/inicio/inicio.html',
-            controller: 'inicioCtrl',
+            controller: 'LoginCtrl',
             controllerAs: 'vm'
         }
     }

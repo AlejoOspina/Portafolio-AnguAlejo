@@ -1,30 +1,35 @@
+@font-face{
+	font-family nevis
+	src url(../../fuentes/nevis.ttf)
+}
+
+body
+	font-family nevis
+	font-size 16px
+.cajafooter{
+	margin-top 15em
+	z-index -2
+	width 100%
+	background white
+}
+
 .Footer
-	position absolute
+	z-index -1
 	bottom 0
-	display flex
-	background blue
-	box-shadow 8px 3px 31px 3px gray
-	padding 1.3em
-	&-parrafo
-		display flex
-	&-titulo
-		color white
-		padding 10px
-	&-p
-		width 50%
-		color white
-		font-size 17px
-		padding 10px
-		border-right 1px solid white
-	&-img
-		width 27%
-		height 29%
-		border-radius 50%
-		-webkit-transition border-bottom 0.2s
-		&:hover
-			border-bottom 5px solid white
-	&-imgs
-		width 21%
+	background black
+	position fixed
+	width 100%
+	padding 2.3em
+	text-align center	
+	color white
 	&-cajaimg
-		width 23%
-		text-align -webkit-right 
+		display initial
+	&-copyright
+		margin-right 20px
+		border-right 2px solid white
+		display inline-block
+		font-size 90%
+		padding 10px
+	&-img
+		width 5%
+		display inline-block

@@ -23,10 +23,17 @@
                     },
                     'piepagina': {
                         template: '<piepagina/>'
+                        
+                        
+                    },'login': {
+                        template: '<login/>'
                     },
+
+
                     'encabezado': {
                         template: '<encabezado/>'
-                    }
+                    },
+                    
                 }
             });
     };
